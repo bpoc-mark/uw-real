@@ -3,7 +3,6 @@
 ==================================*/
 #Top main {
   margin-top: 200px;
-  margin-bottom: 200px;
   .sect_1{
     overflow: hidden;
     .wrapper{
@@ -432,6 +431,84 @@
               font-size: 24px;
               color: #fff;
               line-height: 34px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_5{
+    .wrapper{
+      padding-bottom: 145px;
+      .container{
+        .row{
+          .col{
+            &:nth-of-type(1){
+              width: 40%;
+              h3{
+                @include Poppins(500);
+                font-size: 48px;
+                color: #bc9450;
+                line-height: 52px;
+                span{
+                  @include Noto_Sans(500);
+                  font-size: 24px;
+                  color: #333333;
+                }
+              }
+            }
+            &:nth-of-type(2){
+              width: 60%;
+
+              .post_cont{
+                .row{
+                  &:not(:last-child){
+                    margin-bottom: 60px;
+                  }
+                  .col{
+                    &:first-child{
+                      width: 180px;
+                    }
+                    &:last-child{
+                      width: calc(100% - 180px);
+                    }
+                    a{
+                      border-bottom: none;
+                      padding: 0;
+                      &.date{
+                        @include Poppins(500);
+                        font-size: 16px;
+                        color: #333333;
+                      }
+                      &.cat{
+                        @include Poppins(500);
+                        font-size: 16px;
+                        color: #bc9450;
+                        padding-left: 5px;
+                      }
+                      &.title{
+                        @include Noto_Sans(400);
+                        font-size: 15px;
+                        color: #333333;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            &:nth-of-type(3){
+              width: 100%;
+              
+              a{
+                position: relative;
+                top: -20px;
+                @include Poppins(500);
+                font-size: 15px;
+                color: #333333;
+                border-bottom: 1px solid #d7d5d2;
+                padding: 10px 4px;
+              }
             }
           }
         }

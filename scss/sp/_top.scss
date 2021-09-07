@@ -451,4 +451,83 @@
       }
     }
   }
+
+  .sect_5{
+    .wrapper{
+      padding-bottom: 85px;
+      .container{
+        .row{
+          .col{
+            &:nth-of-type(1){
+              width: 100%;
+              margin-bottom: 37px;
+              h3{
+                @include Poppins(500);
+                font-size: 32px;
+                color: #bc9450;
+                line-height: 26px;
+                span{
+                  @include Noto_Sans(500);
+                  font-size: 16px;
+                  color: #333333;
+                }
+              }
+            }
+            &:nth-of-type(2){
+              width: 100%;
+              margin-bottom: 37px;
+              .post_cont{
+                .row{
+                  &:not(:last-child){
+                    margin-bottom: 35px;
+                  }
+                  .col{
+                    margin-bottom: 0;
+                    &:first-child{
+                      width: 100%;
+                      margin-bottom: 10px;
+                    }
+                    &:last-child{
+                      width: 100%;
+                    }
+                    a{
+                      border-bottom: none;
+                      padding: 0;
+                      &.date{
+                        @include Poppins(500);
+                        font-size: 16px;
+                        color: #333333;
+                      }
+                      &.cat{
+                        @include Poppins(500);
+                        font-size: 16px;
+                        color: #bc9450;
+                        padding-left: 5px;
+                      }
+                      &.title{
+                        @include Noto_Sans(400);
+                        font-size: 15px;
+                        color: #333333;
+                      }
+                    }
+                  }
+                }
+              }
+            }
+            &:nth-of-type(3){
+              width: 100%;
+              text-align: center;
+              a{
+                @include Poppins(500);
+                font-size: 15px;
+                color: #333333;
+                border-bottom: 1px solid #d7d5d2;
+                padding: 10px 4px;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
 }

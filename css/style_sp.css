@@ -1050,6 +1050,93 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 28px;
 }
 
+#Top main .sect_5 .wrapper {
+  padding-bottom: 85px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(1) {
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(1) h3 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 32px;
+  color: #bc9450;
+  line-height: 26px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(1) h3 span {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) {
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row:not(:last-child) {
+  margin-bottom: 35px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col {
+  margin-bottom: 0;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col:first-child {
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col:last-child {
+  width: 100%;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col a {
+  border-bottom: none;
+  padding: 0;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col a.date {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col a.cat {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #bc9450;
+  padding-left: 5px;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(2) .post_cont .row .col a.title {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(3) {
+  width: 100%;
+  text-align: center;
+}
+
+#Top main .sect_5 .wrapper .container .row .col:nth-of-type(3) a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  color: #333333;
+  border-bottom: 1px solid #d7d5d2;
+  padding: 10px 4px;
+}
+
 /*==================================
   Contact_reset
 ==================================*/

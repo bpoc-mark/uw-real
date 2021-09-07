@@ -172,6 +172,102 @@
 					</div>
 				</div>
 			</section>
+			<section class="sect_5">
+				<div class="wrapper">
+					<div class="container">
+						<div class="row">
+							<div class="col">
+								<h3>
+									INFORMATION <br>
+									<span>お知らせ</span>
+								</h3>
+							</div>
+							<div class="col">
+								<ul class="post_cont">
+									<li class="row">
+										<div class="col">
+											<a href="" class="date">
+												2020.12.01
+											</a>
+											<a href="" class="cat">
+												NEWS
+											</a>
+										</div>
+										<div class="col">
+											<a href="" class="title">
+												花　プロアダプト活動として気賀駅にて除草作業を行いました!
+											</a>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col">
+											<a href="" class="date">
+												2020.12.01
+											</a>
+											<a href="" class="cat">
+												NEWS
+											</a>
+										</div>
+										<div class="col">
+											<a href="" class="title">
+											シトラスリボンプロジェクトに賛同しています
+											</a>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col">
+											<a href="" class="date">
+												2020.12.01
+											</a>
+											<a href="" class="cat">
+												NEWS
+											</a>
+										</div>
+										<div class="col">
+											<a href="" class="title">
+											夏季の社長現場巡回を行いました
+											</a>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col">
+											<a href="" class="date">
+												2020.12.01
+											</a>
+											<a href="" class="cat">
+												NEWS
+											</a>
+										</div>
+										<div class="col">
+											<a href="" class="title">
+											新型コロナウイルスによる緊急事態宣言発令に伴う弊社の対応について
+											</a>
+										</div>
+									</li>
+									<li class="row">
+										<div class="col">
+											<a href="" class="date">
+												2020.12.01
+											</a>
+											<a href="" class="cat">
+												NEWS
+											</a>
+										</div>
+										<div class="col">
+											<a href="" class="title">
+											第24回　フロントマネージャー研修会を開催しました
+											</a>
+										</div>
+									</li>
+								</ul>
+							</div>
+							<div class="col">
+							<a href="">VIEW MORE</a>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>

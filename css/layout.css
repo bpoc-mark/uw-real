@@ -78,6 +78,7 @@ video {
   vertical-align: baseline;
   background: transparent;
   box-sizing: border-box;
+  word-wrap: break-word;
 }
 body,
 form,
