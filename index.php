@@ -29,7 +29,17 @@
 		</header>
 
 		<main>
-
+			<section class="sect_1">
+				<div class="wrapper">
+					<div class="container">
+						<h3>
+							<img src="/images/top/section_1/top_txt_1.svg" alt="">
+							<img src="/images/top/section_1/top_txt_2.svg" alt="">
+						</h3>
+					</div>
+					<a href="" class="btn_scrolldown"></a>
+				</div>
+			</section>
 		</main>
 
 		<footer>
