@@ -853,6 +853,147 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 35px;
 }
 
+#Top main .sect_4 .wrapper {
+  padding-top: 120px;
+  padding-bottom: 110px;
+}
+
+#Top main .sect_4 .wrapper .container .wrap {
+  padding-top: 95px;
+  padding-bottom: 40px;
+  background-image: url(../images/top/section_4/img_1.png);
+  background-size: cover;
+  background-position: center center;
+  margin-bottom: 60px;
+}
+
+#Top main .sect_4 .wrapper .container .wrap h4 {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 30px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 25px;
+}
+
+#Top main .sect_4 .wrapper .container .wrap h4 br {
+  display: none;
+}
+
+#Top main .sect_4 .wrapper .container .wrap p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 17px;
+  color: #fff;
+  text-align: center;
+  margin-bottom: 50px;
+}
+
+#Top main .sect_4 .wrapper .container .wrap p br {
+  display: none;
+}
+
+#Top main .sect_4 .wrapper .container .wrap a {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 500;
+  font-size: 15px;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  display: block;
+}
+
+#Top main .sect_4 .wrapper .container .wrap a::after {
+  content: "";
+  display: block;
+  width: 99px;
+  height: 1px;
+  margin: 10px auto 0;
+  background-color: rgba(255, 255, 255, 0.42);
+}
+
+#Top main .sect_4 .wrapper .container .row {
+  align-items: center;
+  justify-content: space-between;
+}
+
+#Top main .sect_4 .wrapper .container .row .col {
+  overflow: hidden;
+  width: 32%;
+  padding-top: 80px;
+  padding-bottom: 75px;
+}
+
+#Top main .sect_4 .wrapper .container .row .col:hover::after {
+  transform: translateX(100%);
+}
+
+#Top main .sect_4 .wrapper .container .row .col::after {
+  content: "";
+  transition: .5s ease;
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-color: rgba(0, 0, 0, 0.47);
+  z-index: 1;
+}
+
+#Top main .sect_4 .wrapper .container .row .col:nth-of-type(1) {
+  background-image: url(../images/top/section_4/1-1.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#Top main .sect_4 .wrapper .container .row .col:nth-of-type(2) {
+  background-image: url(../images/top/section_4/2-2.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#Top main .sect_4 .wrapper .container .row .col:nth-of-type(2) h4 {
+  letter-spacing: -4px;
+}
+
+#Top main .sect_4 .wrapper .container .row .col:nth-of-type(2) h4::first-line {
+  letter-spacing: 0;
+}
+
+#Top main .sect_4 .wrapper .container .row .col:nth-of-type(3) {
+  background-image: url(../images/top/section_4/3-3.png);
+  background-size: cover;
+  background-position: center center;
+}
+
+#Top main .sect_4 .wrapper .container .row .col p {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  margin-bottom: 15px;
+}
+
+#Top main .sect_4 .wrapper .container .row .col p span {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #fff;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5px 15px;
+}
+
+#Top main .sect_4 .wrapper .container .row .col h4 {
+  position: relative;
+  z-index: 2;
+  text-align: center;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 24px;
+  color: #fff;
+  line-height: 34px;
+}
+
 /*==================================
   Contact_reset
 ==================================*/

@@ -142,6 +142,36 @@
 					</div>
 				</div>
 			</section>
+			<section class="sect_4">
+				<div class="wrapper">
+					<div class="container">
+						<div class="wrap">
+							<h4>賃貸管理・<br>資産マネジメント</h4>
+							<p>弊社では、分譲マンション以外にも <br>
+								賃貸マンションや資産マネジメントも<br>
+								展開しております。</p>
+							<a href="">view more</a>
+						</div>
+						<div class="row">
+							<div class="col">
+								<p><span>あなたのマンション大丈夫？</span></p>
+								<h4>マンション管理会社<br>
+									適性チェック</h4>
+							</div>
+							<div class="col">
+								<p><span>理想の永住空間創りをご提案</span></p>
+								<h4>リアルの<br>
+									や・さ・し・いリフォーム</h4>
+							</div>
+							<div class="col">
+								<p><span>調査報告の発行依頼はこちら</span></p>
+								<h4>重要事項調査報告 <br>
+									依頼受付</h4>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>
