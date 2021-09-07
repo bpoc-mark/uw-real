@@ -62,6 +62,86 @@
 					</div>
 				</div>
 			</section>
+			<section class="sect_3">
+				<div class="wrapper">
+					<div class="row">
+						<div class="col">
+							<ul>
+								<li class="s_3_li" data-target="img_1">
+									<a>
+										<span>MANAGEMENT SUPPORT</span>
+										マネジメントサポート
+									</a>
+								</li>
+								<li class="s_3_li" data-target="img_2">
+									<a>
+										<span>MAINTENANCE SUPPORT</span>
+										メンテナンスサポート
+									</a>
+								</li>
+								<li class="s_3_li" data-target="img_3">
+									<a>
+										<span>LIFE SUPPORT</span>
+										ライフサポート
+									</a>
+								</li>
+								<li class="s_3_li" data-target="img_4">
+									<a>
+										<span>MANAGEMENT POINTS</span>
+										マンション管理のポイント
+									</a>
+								</li>
+								<li class="s_3_li" data-target="img_5">
+									<a>
+										<span>FLOW TO REQUEST</span>
+										ご依頼までの流れ
+									</a>
+								</li>
+								<li class="s_3_li" data-target="img_6">
+									<a>
+										<span>MANAGEMENT Q&A</span>
+										マンション管理Q&A
+									</a>
+								</li>
+							</ul>
+						</div>
+						<div class="col">
+							<div class="wrap img_1">
+								<span>分譲マンション</span>
+								<h4>MANAGEMENT SUPPORT</h4>
+								<p>当社管理業務のうち、マネジメントに関するサービスをご紹介いたします。適正価格競争を生き抜いた独立系の特長を生かし、皆様に快適なマンションライフをお届けします。</p>
+							</div>
+							<div class="wrap img_2">
+								<span>分譲マンション</span>
+								<h4>MANAGEMENT SUPPORT</h4>
+								<p>株式会社リアルでは、明瞭会計と、徹底した社員教育を行い、マンション管理業界を一新しようと考えております。日常の清掃から設備管理まで、マンションメンテナンスはお任せください。</p>
+							</div>
+							<div class="wrap img_3">
+								<span>分譲マンション</span>
+								<h4>LIFE SUPPORT</h4>
+								<p>深夜でも早朝でも、お電話一本で当社スタッフが状況に応じて駆けつけ、その場で機械の故障、設備の補修（一次対応）を行います。快適なマンションライフを24時間体制で見守る、株式会社リアルのライフサポートです。</p>
+							</div>
+							<div class="wrap img_4">
+								<span>分譲マンション</span>
+								<h4>MANAGEMENT POINTS</h4>
+								<p>管理会社はマンションの所有者である皆様が選ぶものです。<br>
+									マンション管理のポイントをご参考いただき、正しいマンション管理を実現してください。</p>
+							</div>
+							<div class="wrap img_5">
+								<span>分譲マンション</span>
+								<h4>FLOW TO REQUEST</h4>
+								<p>管理会社変更は簡単に行えます。理事会のご意向を入念に伺い、適切なアドバイスの下、「管理会社の変更」をお手伝い致します。<br>
+								ご依頼までの流れをご紹介。</p>
+							</div>
+							<div class="wrap img_6">
+								<span>分譲マンション</span>
+								<h4>MANAGEMENT Q&A</h4>
+								<p>皆様のマンション管理に関する、代表的な疑問や質問にお答えしておりますのでご参考ください。掲載中の事例以外にもご不明な点がございましたら、当社までお気軽にご相談ください。</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
 		</main>
 
 		<footer>

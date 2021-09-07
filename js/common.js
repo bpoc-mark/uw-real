@@ -23,6 +23,30 @@ $(function () {
 
   }
 
+  // $(document).on('hover', '.s_3_li', function(){
+  //   alert();
+  //   var val = $('.s_3_li a').text();
+  //   alert(val);
+  // });
+
+  // $(".s_3_li").hover(function(){
+  //   alert();
+  // });
+
+  $(".s_3_li").each(function(index) {
+      $(this).hover(function(){
+          var key = $(this).attr("data-target"); 
+          // if($('.s_3_li').hasClass('show')){
+          //   $('.s_3_li').removeClass('show');
+          //   $('.'+key).toggleClass('show');
+          // }
+          if(key !== "img_1"){
+            $('.img_1').toggleClass('show');
+            $('.'+key).toggleClass('show');
+          }
+      });
+  });
+
 });
 
 

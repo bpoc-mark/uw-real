@@ -3,6 +3,7 @@
 ==================================*/
 #Top main {
   margin-top: 200px;
+  margin-bottom: 200px;
   .sect_1{
     overflow: hidden;
     .wrapper{
@@ -131,6 +132,182 @@
             }
             &:last-child{
               width: 30%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .sect_3{
+    .wrapper{
+      .row{
+        position: relative;
+        top: -40px;
+        align-items: stretch;
+        background-color: #c7000b;
+        &::after{
+          content: "";
+          width: 50%;
+          height: 100%;
+          margin-left: auto;
+          position: absolute;
+          // top: 0;
+          right: 0;
+          background-color: #ebe8e1;
+          z-index: 1;
+        }
+        .col{
+          width: 50%;
+          &:first-child{
+            padding-left: 100px;
+            padding-right: 70px;
+            padding-bottom: 80px;
+            padding-top: 40px;
+            ul{
+              list-style: none;
+              li{
+                position: relative;
+                display: inline-block;
+                width: 100%;
+                border-bottom: 1px solid #e38085;
+                padding-bottom: 15px;
+                padding-top: 25px;
+                &::after{
+                  content: "";
+                  display: block;
+                  width: 4px;
+                  height: 1px;
+                  transition: .5s ease;
+                  background-color: #fff;
+                  position: absolute;
+                  bottom: -1px;
+                  left: 0;
+                }
+                &:hover{
+                  &::after{
+                    width: 100%;
+                  }
+                  a{
+                    span{
+                      opacity: 1;
+                    }
+                  }
+                }
+                a{
+                  display: flex;
+                  flex-direction: column;
+                  @include Noto_Sans(500);
+                  font-size: 20px;
+                  text-align: left;
+                  color: #fff;
+                  span{
+                    @include Poppins(500);
+                    font-size: 10px;
+                    transition: .5s ease;
+                    opacity: 0;
+                  }
+                }
+              }
+            }
+          }
+          &:last-child{
+            position: relative;
+            top: 40px;
+            z-index: 10;
+            overflow: hidden;
+            .wrap{
+              width: 100%;
+              height: 100%;
+              background-image: url(../images/top/section_3/img_1.png);
+              background-size: cover;
+              background-position: center center;
+              padding-left: 115px;
+              padding-right: 100px;
+              display: flex;
+              align-items: flex-start;
+              justify-content: center;
+              flex-direction: column;
+              transition: .5s ease;
+              @media only screen and (max-width: 1000px) {
+                padding-left: 80px;
+              }
+              &.img_1{
+                position: absolute;
+                top: 0;
+                left: 0;
+                transform: translateX(0);
+                &.show{
+                  transform: translateX(100%);
+                }
+              }
+              &.img_2{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: url(../images/top/section_3/img_2.png);
+                transform: translateX(100%);
+                &.show{
+                  transform: translateX(0);
+                }
+              }
+              &.img_3{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: url(../images/top/section_3/img_3.png);
+                transform: translateX(100%);
+                &.show{
+                  transform: translateX(0);
+                }
+              }
+              &.img_4{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: url(../images/top/section_3/img_4.png);
+                transform: translateX(100%);
+                &.show{
+                  transform: translateX(0);
+                }
+              }
+              &.img_5{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: url(../images/top/section_3/img_5.png);
+                transform: translateX(100%);
+                &.show{
+                  transform: translateX(0);
+                }
+              }
+              &.img_6{
+                position: absolute;
+                top: 0;
+                left: 0;
+                background-image: url(../images/top/section_3/img_6.png);
+                transform: translateX(100%);
+                &.show{
+                  transform: translateX(0);
+                }
+              }
+              span{
+                @include Noto_Sans(400);
+                font-size: 16px;
+                color: #bc9450;
+              }
+              h4{
+                @include Poppins(500);
+                font-size: 48px;
+                color: #fff;
+                margin: 30px 0 40px;
+              }
+              p{
+                @include Noto_Sans(400);
+                font-size: 17px;
+                color: #fff;
+                line-height: 35px;
+              }
             }
           }
         }
