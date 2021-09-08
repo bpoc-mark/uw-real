@@ -2,7 +2,6 @@
   Top
 ==================================*/
 #Top main {
-  margin-top: 200px;
   .sect_1{
     .wrapper{
       position: relative;
@@ -10,6 +9,7 @@
       padding-left: 20px;
       height: 425px;
       width: 100%;
+      margin-top: 50px;
       &::after{
         content: "";
         display: block;
