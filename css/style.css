@@ -84,16 +84,208 @@ header {
 /* footer
 ==================================*/
 footer {
-  background: #000;
+  position: relative;
+}
+
+footer .footer_inner .nav_cont {
+  position: relative;
+  background-image: url(../images/top/section_2/bg.png);
+  background-size: cover;
+  background-position: center center;
+  padding-bottom: 50px;
+  padding-top: 45px;
+}
+
+footer .footer_inner .nav_cont::before {
+  content: "";
+  display: block;
+  width: 75%;
+  height: 12px;
+  background-color: #c7000b;
+  position: absolute;
+  top: -12px;
+  right: 0;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu {
+  width: 23%;
+  padding-right: 40px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li {
+  text-align: right;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li:not(:last-child) {
+  margin-bottom: 30px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li:nth-of-type(5) {
+  letter-spacing: -1px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li a {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+  position: relative;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li a img {
+  width: 11px;
+  position: absolute;
+  top: 50%;
+  right: -30px;
+  transform: translate(0, -50%);
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu {
+  width: 75%;
+  position: absolute;
+  right: 0;
+  top: 50px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav {
+  width: calc(100% / 3);
+  padding-right: 20px;
+  padding-left: 20px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav:nth-child(-n+3) {
+  margin-bottom: 30px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav p {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+  text-align: left;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #c9c5bd;
+  margin-bottom: 15px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav ul {
+  width: 100%;
+  padding-left: 20px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav ul li {
+  text-align: left;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li .sub_menu nav ul li a {
+  font-size: 14px;
+  color: #737373;
+}
+
+footer .footer_inner .footer_details {
+  padding-top: 45px;
+  padding-bottom: 30px;
+}
+
+footer .footer_inner .footer_details .img_list.row {
+  justify-content: center;
+}
+
+footer .footer_inner .footer_details .img_list.row img {
+  margin: 3px;
+}
+
+footer .footer_inner .footer_details .company {
+  margin-top: 25px;
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+footer .footer_inner .footer_details .company span {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #fff;
+  padding: 7px 80px;
+  background-color: #999999;
+  border-radius: 50px;
+}
+
+footer .footer_inner .footer_details p {
+  text-align: center;
+}
+
+footer .footer_inner .footer_details p:nth-of-type(2) {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: #333333;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+footer .footer_inner .footer_details p:nth-of-type(3) {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 15px;
+  color: #333333;
+  line-height: 26px;
+  margin-top: 20px;
+  margin-bottom: 15px;
+}
+
+footer .footer_inner .footer_details p:nth-of-type(3) br {
+  display: none;
+}
+
+footer .footer_inner .footer_details p:nth-of-type(3) br:nth-of-type(3) {
+  display: block;
+}
+
+footer .footer_inner .copy {
+  background-color: #35302a;
+  padding: 20px 0 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer .footer_inner .copy small {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: 400;
+  font-size: 13px;
+  color: #fff;
+}
+
+footer .footer_inner .copy small br {
+  display: none;
+}
+
+footer .footer_inner .copy small img {
+  width: 142px;
+  margin-right: 10px;
 }
 
 #pageTop {
+  background-color: #35302a;
+  width: 100px;
+  height: 58px;
   opacity: 0;
   position: fixed;
   right: 0;
   bottom: 0;
   z-index: 888;
   transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 #pageTop.active {
@@ -102,11 +294,16 @@ footer {
 
 #pageTop a {
   display: block;
+  text-align: center;
   width: 50px;
 }
 
 #pageTop a:hover {
   opacity: 0.7;
+}
+
+#pageTop a img {
+  width: 21px;
 }
 
 /* loader
