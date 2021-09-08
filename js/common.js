@@ -36,12 +36,12 @@ $(function () {
 
   $('[data-target="sub_menu"]').click(function(){
     if(clickAllowed){
-      if($('a img').hasClass('active')){
-        $('a img').removeClass('active');
+      if($('[data-target="sub_menu"] a img').hasClass('active')){
+        $('[data-target="sub_menu"] a img').removeClass('active');
         $('#sub_menu').slideDown();
         return false;
       }else{
-        $('a img').addClass('active');
+        $('[data-target="sub_menu"] a img').addClass('active');
         $('#sub_menu').slideUp();
         return false;
       }
@@ -50,12 +50,12 @@ $(function () {
 
   $('[data-target="big_sub_menu"]').click(function(){
     if(clickAllowed){
-      if($('a img').hasClass('active')){
-        $('a img').removeClass('active');
+      if($('[data-target="big_sub_menu"] a img').hasClass('active')){
+        $('[data-target="big_sub_menu"] a img').removeClass('active');
         $('#head_sub_menu').slideDown();
         return false;
       }else{
-        $('a img').addClass('active');
+        $('[data-target="big_sub_menu"] a img').addClass('active');
         $('#head_sub_menu').slideUp();
         return false;
       }
