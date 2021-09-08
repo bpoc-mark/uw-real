@@ -191,8 +191,9 @@ body {
 }
 
 #loading.loaded {
-  opacity: 0;
+  /* opacity: 0; */
+  transform: translateX(-100%);
   visibility: hidden;
-  -webkit-transition: all 1s;
-  transition: all 1s;
+  -webkit-transition: all .5s;
+  transition: all .5s;
 }

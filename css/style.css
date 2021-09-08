@@ -110,11 +110,13 @@ header .header_inner.open {
 
 header .header_inner.open::before {
   background-color: transparent;
+  transition-delay: .2s;
 }
 
 header .header_inner.open.row .left::after {
   background-color: transparent;
   border-right: 0;
+  transition-delay: .2s;
 }
 
 header .header_inner.open.row .left span {
@@ -126,7 +128,8 @@ header .header_inner.open.row .left img {
 }
 
 header .header_inner.open.row .right ul {
-  display: none;
+  opacity: 0;
+  transition-delay: .2s;
 }
 
 header .header_inner.open.row .right .menu {

@@ -37,10 +37,10 @@
 							<img src="/images/top/section_1/top_txt_2.svg" alt="">
 						</h3>
 					</div>
-					<a href="" class="btn_scrolldown"></a>
+					<a href="#sect_2" class="btn_scrolldown"></a>
 				</div>
 			</section>
-			<section class="sect_2">
+			<section class="sect_2" id="sect_2">
 				<div class="wrapper">
 					<div class="container">
 						<div class="row">
