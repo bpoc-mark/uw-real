@@ -45,18 +45,18 @@
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<h3>
+								<h3 class="c-anim-up">
 									<span><span>分譲マンションの</span><br><span>管理体制</span>を<span>一新</span>します</span>
 								</h3>
-								<p>皆様がお住まいのマンション共用部や設備は、清潔で安全な管理の下で使用されていますか？<br>
+								<p class="c-anim-up">皆様がお住まいのマンション共用部や設備は、清潔で安全な管理の下で使用されていますか？<br>
 								現在のマンション管理に少しでもご不満な点があるのであれば、それは管理会社を変更するチャンスです。
 									<img src="/images/top/sp/section_2/img_1.png" alt="">
 								</p>
-								<p>分譲マンション管理 株式会社リアルは、皆様に全ての業務内容をご理解いただけるよう、明確な体制を確立。</p>
-								<p>静岡・浜松から愛知のマンション管理体制を一新すべく経営に力を入れています。</p>
+								<p class="c-anim-up">分譲マンション管理 株式会社リアルは、皆様に全ての業務内容をご理解いただけるよう、明確な体制を確立。</p>
+								<p class="c-anim-up">静岡・浜松から愛知のマンション管理体制を一新すべく経営に力を入れています。</p>
 							</div>
 							<div class="col">
-								<img src="/images/top/section_2/img_1.png" alt="">
+								<img src="/images/top/section_2/img_1.png" alt="" class="c-anim-up">
 							</div>
 						</div>
 					</div>
@@ -67,37 +67,37 @@
 					<div class="row">
 						<div class="col">
 							<ul>
-								<li class="s_3_li" data-target="img_1">
+								<li class="s_3_li c-anim-up" data-target="img_1">
 									<a>
 										<span>MANAGEMENT SUPPORT</span>
 										マネジメントサポート
 									</a>
 								</li>
-								<li class="s_3_li" data-target="img_2">
+								<li class="s_3_li c-anim-up" data-target="img_2">
 									<a>
 										<span>MAINTENANCE SUPPORT</span>
 										メンテナンスサポート
 									</a>
 								</li>
-								<li class="s_3_li" data-target="img_3">
+								<li class="s_3_li c-anim-up" data-target="img_3">
 									<a>
 										<span>LIFE SUPPORT</span>
 										ライフサポート
 									</a>
 								</li>
-								<li class="s_3_li" data-target="img_4">
+								<li class="s_3_li c-anim-up" data-target="img_4">
 									<a>
 										<span>MANAGEMENT POINTS</span>
 										マンション管理のポイント
 									</a>
 								</li>
-								<li class="s_3_li" data-target="img_5">
+								<li class="s_3_li c-anim-up" data-target="img_5">
 									<a>
 										<span>FLOW TO REQUEST</span>
 										ご依頼までの流れ
 									</a>
 								</li>
-								<li class="s_3_li" data-target="img_6">
+								<li class="s_3_li c-anim-up" data-target="img_6">
 									<a>
 										<span>MANAGEMENT Q&A</span>
 										マンション管理Q&A
@@ -105,7 +105,7 @@
 								</li>
 							</ul>
 						</div>
-						<div class="col">
+						<div class="col c-anim-up">
 							<div class="wrap img_1">
 								<span>分譲マンション</span>
 								<h4>MANAGEMENT SUPPORT</h4>
@@ -145,25 +145,25 @@
 			<section class="sect_4">
 				<div class="wrapper">
 					<div class="container">
-						<div class="wrap">
-							<h4>賃貸管理・<br>資産マネジメント</h4>
-							<p>弊社では、分譲マンション以外にも <br>
+						<div class="wrap" class="c-anim-up">
+							<h4 class="c-anim-up">賃貸管理・<br>資産マネジメント</h4>
+							<p class="c-anim-up">弊社では、分譲マンション以外にも <br>
 								賃貸マンションや資産マネジメントも<br>
 								展開しております。</p>
-							<a href="">view more</a>
+							<a href="" class="c-anim-up">view more</a>
 						</div>
 						<div class="row">
-							<div class="col">
+							<div class="col c-anim-up">
 								<p><span>あなたのマンション大丈夫？</span></p>
 								<h4>マンション管理会社<br>
 									適性チェック</h4>
 							</div>
-							<div class="col">
+							<div class="col c-anim-up">
 								<p><span>理想の永住空間創りをご提案</span></p>
 								<h4>リアルの<br>
 									や・さ・し・いリフォーム</h4>
 							</div>
-							<div class="col">
+							<div class="col c-anim-up">
 								<p><span>調査報告の発行依頼はこちら</span></p>
 								<h4>重要事項調査報告 <br>
 									依頼受付</h4>
@@ -177,14 +177,14 @@
 					<div class="container">
 						<div class="row">
 							<div class="col">
-								<h3>
+								<h3 class="c-anim-up">
 									INFORMATION <br>
 									<span>お知らせ</span>
 								</h3>
 							</div>
 							<div class="col">
 								<ul class="post_cont">
-									<li class="row">
+									<li class="row c-anim-up">
 										<div class="col">
 											<a href="" class="date">
 												2020.12.01
@@ -199,7 +199,7 @@
 											</a>
 										</div>
 									</li>
-									<li class="row">
+									<li class="row c-anim-up">
 										<div class="col">
 											<a href="" class="date">
 												2020.12.01
@@ -214,7 +214,7 @@
 											</a>
 										</div>
 									</li>
-									<li class="row">
+									<li class="row c-anim-up">
 										<div class="col">
 											<a href="" class="date">
 												2020.12.01
@@ -229,7 +229,7 @@
 											</a>
 										</div>
 									</li>
-									<li class="row">
+									<li class="row c-anim-up">
 										<div class="col">
 											<a href="" class="date">
 												2020.12.01
@@ -244,7 +244,7 @@
 											</a>
 										</div>
 									</li>
-									<li class="row">
+									<li class="row c-anim-up">
 										<div class="col">
 											<a href="" class="date">
 												2020.12.01
@@ -262,7 +262,7 @@
 								</ul>
 							</div>
 							<div class="col">
-							<a href="">VIEW MORE</a>
+							<a href="" class="c-anim-up">VIEW MORE</a>
 							</div>
 						</div>
 					</div>
