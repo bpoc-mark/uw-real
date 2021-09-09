@@ -280,6 +280,7 @@ header .big_menu_cont .row .col:last-child .big_menu {
 header .big_menu_cont .row .col:last-child .big_menu li {
   width: 100%;
   text-align: left;
+  cursor: pointer;
 }
 
 header .big_menu_cont .row .col:last-child .big_menu li a {
@@ -293,6 +294,10 @@ header .big_menu_cont .row .col:last-child .big_menu li a {
   padding-right: 20px;
   padding-bottom: 20px;
   transition: .5s ease;
+}
+
+header .big_menu_cont .row .col:last-child .big_menu li a:hover {
+  opacity: .7;
 }
 
 header .big_menu_cont .row .col:last-child .big_menu li a img {
@@ -399,6 +404,7 @@ footer .footer_inner .nav_cont .container .row .col .footer_menu {
 
 footer .footer_inner .nav_cont .container .row .col .footer_menu li {
   text-align: left;
+  cursor: pointer;
 }
 
 footer .footer_inner .nav_cont .container .row .col .footer_menu li:not(:last-child) {
@@ -411,6 +417,11 @@ footer .footer_inner .nav_cont .container .row .col .footer_menu li a {
   font-size: 16px;
   color: #333333;
   position: relative;
+  transition: .5s ease;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li a:hover {
+  opacity: .7;
 }
 
 footer .footer_inner .nav_cont .container .row .col .footer_menu li a img {

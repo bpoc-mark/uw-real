@@ -68,37 +68,37 @@
 						<div class="col">
 							<ul>
 								<li class="s_3_li c-anim-up" data-target="img_1">
-									<a>
+									<a href="">
 										<span>MANAGEMENT SUPPORT</span>
 										マネジメントサポート
 									</a>
 								</li>
 								<li class="s_3_li c-anim-up" data-target="img_2">
-									<a>
+									<a href="">
 										<span>MAINTENANCE SUPPORT</span>
 										メンテナンスサポート
 									</a>
 								</li>
 								<li class="s_3_li c-anim-up" data-target="img_3">
-									<a>
+									<a href="">
 										<span>LIFE SUPPORT</span>
 										ライフサポート
 									</a>
 								</li>
 								<li class="s_3_li c-anim-up" data-target="img_4">
-									<a>
+									<a href="">
 										<span>MANAGEMENT POINTS</span>
 										マンション管理のポイント
 									</a>
 								</li>
 								<li class="s_3_li c-anim-up" data-target="img_5">
-									<a>
+									<a href="">
 										<span>FLOW TO REQUEST</span>
 										ご依頼までの流れ
 									</a>
 								</li>
 								<li class="s_3_li c-anim-up" data-target="img_6">
-									<a>
+									<a href="">
 										<span>MANAGEMENT Q&A</span>
 										マンション管理Q&A
 									</a>
@@ -261,8 +261,8 @@
 									</li>
 								</ul>
 							</div>
-							<div class="col">
-							<a href="" class="c-anim-up">VIEW MORE</a>
+							<div class="col c-anim-up">
+							<a href="">VIEW MORE</a>
 							</div>
 						</div>
 					</div>

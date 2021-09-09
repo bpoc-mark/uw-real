@@ -198,6 +198,9 @@ header {
               @include Noto_Sans(500);
               font-size: 15px;
               color: #333333;
+              &:hover{
+                opacity: .7;
+              }
             }
           }
         }
@@ -320,6 +323,7 @@ header {
             }
             li{
               width: 100%;
+              cursor: pointer;
               text-align: right;
               &:not(:last-child){
                 margin-bottom: 45px;
@@ -329,6 +333,9 @@ header {
                 @include Noto_Sans(400);
                 font-size: 16px;
                 color: #fff;
+                &:hover{
+                  opacity: .7;
+                }
                 img{
                   width: 15px;
                   position: absolute;
@@ -421,6 +428,7 @@ footer {
               padding-right: 40px;
               li{
                 text-align: right;
+                cursor: pointer;
                 &:not(:last-child){
                   margin-bottom: 30px;
                 }
@@ -432,6 +440,9 @@ footer {
                   font-size: 15px;
                   color: #333333;
                   position: relative;
+                  &:hover{
+                    opacity: .7;
+                  }
                   img{
                     width: 11px;
                     position: absolute;

@@ -222,6 +222,10 @@ header .header_inner.row .right ul li a {
   color: #333333;
 }
 
+header .header_inner.row .right ul li a:hover {
+  opacity: .7;
+}
+
 header .header_inner.row .right .menu {
   position: relative;
   background: #c7000b;
@@ -347,6 +351,7 @@ header .big_menu_cont .row .col:last-child .big_menu::after {
 
 header .big_menu_cont .row .col:last-child .big_menu li {
   width: 100%;
+  cursor: pointer;
   text-align: right;
 }
 
@@ -360,6 +365,10 @@ header .big_menu_cont .row .col:last-child .big_menu li a {
   font-weight: 400;
   font-size: 16px;
   color: #fff;
+}
+
+header .big_menu_cont .row .col:last-child .big_menu li a:hover {
+  opacity: .7;
 }
 
 header .big_menu_cont .row .col:last-child .big_menu li a img {
@@ -454,6 +463,7 @@ footer .footer_inner .nav_cont .container .row .col .footer_menu {
 
 footer .footer_inner .nav_cont .container .row .col .footer_menu li {
   text-align: right;
+  cursor: pointer;
 }
 
 footer .footer_inner .nav_cont .container .row .col .footer_menu li:not(:last-child) {
@@ -470,6 +480,10 @@ footer .footer_inner .nav_cont .container .row .col .footer_menu li a {
   font-size: 15px;
   color: #333333;
   position: relative;
+}
+
+footer .footer_inner .nav_cont .container .row .col .footer_menu li a:hover {
+  opacity: .7;
 }
 
 footer .footer_inner .nav_cont .container .row .col .footer_menu li a img {
