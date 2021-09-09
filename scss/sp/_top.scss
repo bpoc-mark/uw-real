@@ -132,29 +132,13 @@
                 z-index: 2;
                 padding-left: 10px;
                 text-align: justify;
-                &:nth-of-type(1){
-                  // padding-right: 50%;
-                  display: flex;
-                  align-items: center;
-
-                  img{
-                    // position: absolute;
-                    // z-index: -1;
-                    // top: 0;
-                    // right: 0;
-                    width: 200px;
-                    height: auto;
-                    margin-left: 15px;
-                    @media screen and (max-width: 500px) {
-                      width: 50%;
-                    }
-                  }
-                }
-                &:nth-of-type(2){
-                  // padding-right: 50%;
-                }
-                &:nth-of-type(3){
-                  // padding-right: 50%;
+              }
+              figure{
+                width: 49%;
+                margin: 18px 0 3px 15px;
+                float: right;
+                img{
+                  width: 100%;
                 }
               }
             }

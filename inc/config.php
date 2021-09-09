@@ -18,7 +18,7 @@
 
 
 //サイト名
-define("SITE_NAME", "");
+define("SITE_NAME", "REAL TOP PAGE");
 
 //キーワード
 define("KEY_WORD", "");

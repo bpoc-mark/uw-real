@@ -94,6 +94,7 @@
         padding-left: 100px;
         .row{
           justify-content: space-between;
+          align-items: center;
           .col{
             &:first-child{
               width: 68%;
@@ -124,9 +125,9 @@
                 font-size: 16px;
                 color: #333333;
                 line-height: 42px;
-                img{
-                  display: none;
-                }
+              }
+              figure{
+                display: none;
               }
             }
             &:last-child{
@@ -163,8 +164,13 @@
             padding-right: 70px;
             padding-bottom: 80px;
             padding-top: 40px;
+            @media only screen and (max-width: 1400px) {
+              padding-left: 50px;
+            }
             ul{
               list-style: none;
+              max-width: 530px;
+              margin-left: auto;
               li{
                 position: relative;
                 display: inline-block;
@@ -228,7 +234,8 @@
               justify-content: center;
               flex-direction: column;
               transition: .5s ease;
-              @media only screen and (max-width: 1000px) {
+              @media only screen and (max-width: 1400px) {
+                padding-right: 50px;
                 padding-left: 80px;
               }
               &.img_1{
@@ -290,22 +297,25 @@
                   transform: translateX(0);
                 }
               }
-              span{
-                @include Noto_Sans(400);
-                font-size: 16px;
-                color: #bc9450;
-              }
-              h4{
-                @include Poppins(500);
-                font-size: 48px;
-                color: #fff;
-                margin: 30px 0 40px;
-              }
-              p{
-                @include Noto_Sans(400);
-                font-size: 17px;
-                color: #fff;
-                line-height: 35px;
+              .txt_wrap{
+                max-width: 485px;
+                span{
+                  @include Noto_Sans(400);
+                  font-size: 16px;
+                  color: #bc9450;
+                }
+                h4{
+                  @include Poppins(500);
+                  font-size: 48px;
+                  color: #fff;
+                  margin: 30px 0 40px;
+                }
+                p{
+                  @include Noto_Sans(400);
+                  font-size: 17px;
+                  color: #fff;
+                  line-height: 35px;
+                }
               }
             }
           }

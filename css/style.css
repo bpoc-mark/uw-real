@@ -1148,6 +1148,7 @@ img[src$=".png"], img[src$=".jpg"] {
 
 #Top main .sect_2 .wrapper .container .row {
   justify-content: space-between;
+  align-items: center;
 }
 
 #Top main .sect_2 .wrapper .container .row .col:first-child {
@@ -1190,7 +1191,7 @@ img[src$=".png"], img[src$=".jpg"] {
   line-height: 42px;
 }
 
-#Top main .sect_2 .wrapper .container .row .col:first-child p img {
+#Top main .sect_2 .wrapper .container .row .col:first-child figure {
   display: none;
 }
 
@@ -1227,8 +1228,16 @@ img[src$=".png"], img[src$=".jpg"] {
   padding-top: 40px;
 }
 
+@media only screen and (max-width: 1400px) {
+  #Top main .sect_3 .wrapper .row .col:first-child {
+    padding-left: 50px;
+  }
+}
+
 #Top main .sect_3 .wrapper .row .col:first-child ul {
   list-style: none;
+  max-width: 530px;
+  margin-left: auto;
 }
 
 #Top main .sect_3 .wrapper .row .col:first-child ul li {
@@ -1300,8 +1309,9 @@ img[src$=".png"], img[src$=".jpg"] {
   transition: .5s ease;
 }
 
-@media only screen and (max-width: 1000px) {
+@media only screen and (max-width: 1400px) {
   #Top main .sect_3 .wrapper .row .col:last-child .wrap {
+    padding-right: 50px;
     padding-left: 80px;
   }
 }
@@ -1377,14 +1387,18 @@ img[src$=".png"], img[src$=".jpg"] {
   transform: translateX(0);
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .wrap span {
+#Top main .sect_3 .wrapper .row .col:last-child .wrap .txt_wrap {
+  max-width: 485px;
+}
+
+#Top main .sect_3 .wrapper .row .col:last-child .wrap .txt_wrap span {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 16px;
   color: #bc9450;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .wrap h4 {
+#Top main .sect_3 .wrapper .row .col:last-child .wrap .txt_wrap h4 {
   font-family: 'Poppins', sans-serif;
   font-weight: 500;
   font-size: 48px;
@@ -1392,7 +1406,7 @@ img[src$=".png"], img[src$=".jpg"] {
   margin: 30px 0 40px;
 }
 
-#Top main .sect_3 .wrapper .row .col:last-child .wrap p {
+#Top main .sect_3 .wrapper .row .col:last-child .wrap .txt_wrap p {
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: 400;
   font-size: 17px;
