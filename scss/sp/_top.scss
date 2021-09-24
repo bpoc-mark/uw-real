@@ -6,7 +6,7 @@
     .wrapper{
       position: relative;
       overflow: hidden;
-      padding-left: 20px;
+      padding-left: 3%;
       height: 425px;
       width: 100%;
       margin-top: 50px;
@@ -318,6 +318,9 @@
 
   .sect_4{
     .wrapper{
+      background-image: url(../images/top/sp/section_4/bg-line.png);
+      background-size: cover;
+      background-position: center center;
       padding-top: 60px;
       padding-bottom: 50px;
       .container{
@@ -438,6 +441,9 @@
 
   .sect_5{
     .wrapper{
+      background-image: url(../images/top/sp/section_4/bg-line.png);
+      background-size: cover;
+      background-position: center center;
       padding-bottom: 85px;
       .container{
         .row{

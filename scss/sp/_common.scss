@@ -176,8 +176,8 @@ header {
               position: relative;
               bottom: 0;
               &.show {
-                bottom: -3px;
-                transform: rotate(-45deg);
+                bottom: -4px;
+                transform: rotate(45deg);
               }
             }
             &.line-b {
@@ -185,7 +185,7 @@ header {
               top: 5px;
               &.show {
                 top: 2px;
-                transform: rotate(45deg);
+                transform: rotate(135deg);
               }
             }
           }
@@ -212,13 +212,39 @@ header {
     right: 0;
     bottom: 0;
     transition: .5s ease;
-    transform: translateX(-100%);
+    // transform: translateX(-100%);
+    display: none;
     &.open{
-      transform: translateX(0);
       .row{
         .col{
           &:last-child{
-            transform: translateX(0);
+            .big_menu{
+              li{
+                a{
+                  display: block;
+                  animation: fade-in .8s ease-out; /*1s*/
+                }
+                .big_sub_menu{
+                  p{
+                    animation: unset; /*1s*/
+                  }
+                  a{
+                    animation: unset; /*1s*/
+                  }
+                }
+
+                @keyframes fade-in{
+                  0%{
+                    opacity: 0;
+                    transform: translate3d(-60px, 0, 0);
+                    }
+                  100%{
+                    opacity: 1;
+                    transform: translate3d(0, 0, 0);
+                  }
+                }
+              }
+            }
           }
         }
       }
@@ -240,7 +266,7 @@ header {
         &:last-child{
           transition: .5s ease;
           transition-delay: .2s;
-          transform: translateX(-100%);
+          // transform: translateX(-100%);
           width: 100%;
           position: relative;
           background-color: #c7000b;
@@ -270,15 +296,17 @@ header {
                   width: 11px;
                   position: relative;
                   top: -5px;
-                  transform: rotate(90deg);
+                  transform: rotate(-90deg);
                   margin-left: 10px;
+                  transition: .5s ease;
                   &.active{
                     top:0;
-                    transform: translate(0, -50%) rotate(270deg);
+                    transform: translate(0, -50%) rotate(90deg);
                   }
                 }
               }
               .big_sub_menu{
+                display: none;
                 position: relative;
                 width: 100%;
                 background-color: #a60009;
@@ -352,10 +380,13 @@ footer {
       background-position: center center;
       padding-bottom: 45px;
       padding-top: 45px;
+      @media only screen and (max-width: 440px) {
+        background-size: contain;
+      }
       &::before{
         content: "";
         display: block;
-        width: 65%;
+        width: 65.7%;
         height: 5px;
         background-color: #c7000b;
         position: absolute;
